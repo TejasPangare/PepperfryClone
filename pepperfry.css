@@ -622,8 +622,161 @@ h3{
     color: #848484;
 }
 
-/* DO NOT CHANGE ABOVE FROM HERE */
 .after-main-body{
     color: #848484;
     size: 10;
 }
+
+.main-end{
+    width: 100vw;
+    /* background-color: #848484; */
+    height: auto;
+}
+.end-top{
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    /* background-color: red; */
+}
+
+.end-top-elm{
+    width: 20vw;
+    height: inherit;
+    background-color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.end-top-elm>h3{
+    font-size: 1vw;
+    font-weight: 500;
+    color: #848484;
+    
+}
+
+.end-content{
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    /* background:  #5B5B5B; */
+    font-size: 12px;
+    padding: 20px 0;
+}
+.end-content h4{
+    font-size: 1vw;
+}
+/* DO NOT CHANGE ABOVE FROM HERE */
+footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background-color: #b9b8b841;
+}
+.footermain{
+    width: 90%;
+    height: auto;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 5vw;
+}
+.ftop-cont{
+    max-width: 30%;
+    height: auto;
+}
+.ftop,.ftop2{
+    margin: 4vw 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.ftop-cont h2{
+    text-align: left;
+    font-size: 1.3vw;
+    font-weight: 600;
+    margin: 0;
+}
+.ftop-cont h3{
+    text-align: left;
+    font-size: 1vw;
+    font-weight: 400;
+    text-wrap:wrap;
+}
+.ftop2 .ftop-cont h3{
+    line-height: 2;
+}
+
+.download-icons{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
+}
+
+footer hr{
+    color:black;
+}
+
+.ftop-us{
+    height: auto;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 3vw;
+    margin: 3vw 0;
+}
+.ftop-cards{
+    width: 55%;
+    max-width: 55%;
+    /* border: 3px solid black; */
+    text-align: left;
+    font-size: 1.7vh;
+    font-weight: 600;
+}
+.ftop-profiles{
+    width: 45%;
+    max-width: 45%;
+    /* border: 3px solid white; */
+    text-align: left;
+    font-size: 1.7vh;
+    font-weight: 600;
+}
+.ftop-logo-end{
+    display: flex;
+    gap: 5px;
+    justify-content: space-evenly;
+}
+
+.ftop-cards .ftop-logo-end img{
+    height: 50px;
+    width: 80px;
+}
+.ftop-profiles .ftop-logo-end img{
+    height: 50px;
+}
+
+.fendfinally{
+    margin: 3vw 0;
+    height: auto;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+
+.last-tags{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.last-tags a{
+    font-size: 1vw;
+    text-decoration: none;
+    color: #848484;
+}
+.copyright h3{
+    font-size: 1.2vw;
+    font-weight: 400;
+}
+
