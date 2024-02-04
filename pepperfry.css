@@ -427,6 +427,7 @@ h3{
     align-items: center;
     overflow-y: hidden;
 }
+.slider-stores::-webkit-scrollbar{display: none;}
 .sliding-icons{
     height: inherit;
     width: inherit;
