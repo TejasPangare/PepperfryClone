@@ -426,6 +426,7 @@ h3{
     position: relative;
     align-items: center;
     overflow-y: hidden;
+    overflow-x: hidden;
 }
 .slider-stores::-webkit-scrollbar{display: none;}
 .sliding-icons{
@@ -482,15 +483,15 @@ h3{
 }
 #store-loc-1{
     background: url("store_img_1.jpg");
-    background-size: contain;
+    background-size: cover;
 }
 #store-loc-2{
     background: url("store_img_2.jpg");
-    background-size: contain;
+    background-size: cover;
 }
 #store-loc-3{
     background: url("store_img_3.jpg");
-    background-size: contain;
+    background-size: cover;
 }
 .store-loc-text{
     background-color: black;
